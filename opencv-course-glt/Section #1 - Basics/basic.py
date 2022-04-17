@@ -1,7 +1,7 @@
 #/usr/bin/python3
 import cv2 as cv
 
-img = cv.imread('./opencv-course-glt/Resources/Photos/park.jpg')
+img = cv.imread('./Resources/Photos/park.jpg')
 cv.imshow('park', img)
 
 #Converting to grayscale

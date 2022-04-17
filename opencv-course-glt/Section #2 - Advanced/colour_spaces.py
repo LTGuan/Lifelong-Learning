@@ -3,7 +3,7 @@ import imp
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img = cv.imread('./opencv-course-glt/Resources/Photos/park.jpg')
+img = cv.imread('./Resources/Photos/park.jpg')
 cv.imshow('park', img)
 
 #BGR to grayscale

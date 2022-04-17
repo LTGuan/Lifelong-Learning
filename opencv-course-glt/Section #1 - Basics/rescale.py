@@ -7,13 +7,13 @@ def rescaleFrame(frame, scale=0.75):
     dimensions = (width,height)
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
-img = cv.imread('./opencv-course-glt/Resources/Photos/cat_large.jpg')
+img = cv.imread('./Resources/Photos/cat_large.jpg')
 cv.imshow('Cat', img)
 cv.imshow('Cat_resized', rescaleFrame(img, scale=0.1))
 # cv.waitKey(0)
 
 #Reading Videos
-capture = cv.VideoCapture('./opencv-course-glt/Resources/Videos/dog.mp4')
+capture = cv.VideoCapture('./Resources/Videos/dog.mp4')
 while True:
     isTrue, frame = capture.read()
 

@@ -2,7 +2,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('./opencv-course-glt/Resources/Photos/park.jpg')
+img = cv.imread('./Resources/Photos/park.jpg')
 cv.imshow('park', img)
 
 #Translation
