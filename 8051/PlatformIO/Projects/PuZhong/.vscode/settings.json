@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "delay.h": "c",
+        "8052.h": "c",
+        "stc12.h": "c",
+        "8051.h": "c"
+    }
+}
