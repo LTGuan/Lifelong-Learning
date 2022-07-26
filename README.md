@@ -35,4 +35,7 @@ git commit -m "220726"
 
 git push
 
+# ..PULL
+git pull
+
 
